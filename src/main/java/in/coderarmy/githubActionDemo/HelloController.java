@@ -10,7 +10,7 @@ public class HelloController {
     public String hello() {
         return "Hello from Coder Army! Welcome back. How are You?";
     }
-
+// Updated tests
     @GetMapping("/bye")
     public String bye() {
         return "Bye Bye!";
